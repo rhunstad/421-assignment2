@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title id="SE_title">Hunt</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.css">
+    
+    <link rel="stylesheet" href="./style.css"> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body id="bodyContent" class="bodyContent">
+    <h1 id="SE_head" onclick="changeBackground()">Hunt</h1>
+    <label for="query">Search: </label>
+    <input type="text" id="query" name="querybox"><br>
+    <button type="button" onclick="uselessFunction(false)" id="searchButton">Search</button><br>
+    <button type="button" onclick="uselessFunction(true)" id="luckyButton" style="height:50px">I'm feeling lucky!</button><br>
+    <button type="button" onclick="showTime()" id="timeButton">Time</button><br>
+    <div id="searchResults" class="uiDiv"></div>
+    <div id="time" class='uiDiv'></div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
