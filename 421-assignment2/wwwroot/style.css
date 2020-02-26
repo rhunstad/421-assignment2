@@ -1,0 +1,52 @@
+.searchResults {
+    visibility: hidden;
+}
+
+.time {
+    visibility: hidden;
+}
+
+.bodyContent {
+    font-family: 'Montserrat';
+    color:darkblue;
+    background-color: lightgrey;
+    background-image: url("https://images.unsplash.com/photo-1565966800331-7e63b302e507?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+    background-size: 1000px 700px;
+    font-size: 40px
+}
+
+input {
+    padding:9px;
+    position: relative;
+    bottom: 9px;
+    width:175px;
+}
+
+.uiDiv {
+    font-size:20px;
+    font-family: 'Montserrat';
+    color:darkblue;
+}
+
+.ui-dialog-title{
+    font-size: 20px !important;
+    color:darkblue !important;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat'; 
+    color: white;
+    margin:10px;
+}
+
+button {
+    background-color: white;
+    font-family: 'Montserrat', ;
+    font-size:15px;
+    color:darkblue;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
